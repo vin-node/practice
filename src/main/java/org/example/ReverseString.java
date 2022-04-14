@@ -1,14 +1,14 @@
 package org.example;
 
 public class ReverseString {
-    private static void reverse(String str)
+    private static void reverseAndPrint(String str)
     {
         if ((str==null)||(str.length() <= 1))
             System.out.println(str);
         else
         {
             System.out.print(str.charAt(str.length()-1));
-            reverse(str.substring(0,str.length()-1));
+            reverseAndPrint(str.substring(0,str.length()-1));
         }
     }
 
@@ -17,9 +17,9 @@ public class ReverseString {
     {
         String str = "reverse test";
 
-        System.out.println(reverseString(str));
+        System.out.println(reverseAndPrintStringUsingForLoop(str));
     }
-    private static void reverseUsingWhile(String input){
+    private static void reverseAndPrintUsingWhile(String input){
         int length = input.length();
 
         while(length >0){
@@ -27,7 +27,7 @@ public class ReverseString {
             length--;
         }
     }
-    private static String reverseString(String str) {
+    private static String reverseAndPrintStringUsingForLoop(String str) {
         char ch;
         StringBuilder nstr = new StringBuilder();
         for (int i=str.length()-1; i >= 0; i--)
