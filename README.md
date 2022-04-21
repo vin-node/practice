@@ -17,6 +17,8 @@ https://www.w3docs.com/quiz/question/ZwN1
 https://angular.io/api/router/RouterOutlet#description
 # Diagrams as code
 https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+# Git markdowns
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 
 
